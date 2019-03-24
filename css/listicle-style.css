@@ -1,3 +1,101 @@
 /**
  TODO(you): Write the CSS necessary to complete HW1!
 */
+body{
+    margin:0px;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/header.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    font-family: 'Roboto Slab',serif;
+    font-size:36px;
+    font-weight:normal;
+    color:white;
+    width:780px;
+    text-align:center;
+    margin:auto;
+}
+
+section.profile{
+    margin-top: -50px;
+    text-align: center;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    line-height: 24px;
+}
+
+section.profile img{
+    width: 100px;
+    border: 3px solid white;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section.profile .profileName{
+    font-weight: bold;
+}
+section.profile .profileDate{
+    font-style: italic;
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+article{
+    margin-top: 60px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+span.order{
+    font-family: 'Roboto Slab',serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.25);
+    margin-right: 40px;
+	margin-left: -40px;
+}
+
+article div{
+    width: 66.67%;
+}
+
+article h2{
+    font-family: 'Roboto Slab',serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    margin:0;
+}
+
+article a{
+    font-family: 'Roboto Slab',serif;
+    font-size: 18px;
+    color: #42b4d6;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+article p{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51, 51, 51);
+    margin-bottom: 20px;
+}
+article img{
+    width: 100%;
+}
